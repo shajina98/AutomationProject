@@ -3,6 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="Scripts.SecondScript">
+        <methods>
+          <include name="webTalk"/>
+          <include name="launch"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Scripts.SecondScript -->
       <class name="Scripts.FirstScript">
         <methods>
           <include name="scriptMeth"/>
